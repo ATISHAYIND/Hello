@@ -2,3 +2,5 @@ systemctl is-active falcon-sensor.service | grep -q active && /opt/CrowdStrike/f
 
 
 rpm -q falcon-sensor >/dev/null && echo "INSTALLED" || echo "NOT INSTALLED"
+
+Get Command Result "rpm -q falcon-sensor >/dev/null && echo INSTALLED || echo NOT INSTALLED"
