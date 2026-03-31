@@ -1,1 +1,4 @@
 systemctl is-active falcon-sensor.service | grep -q active && /opt/CrowdStrike/falconctl -g --cid | grep -q . && echo "SUCCESS: Falcon Installed & Running" || echo "FAILED: Falcon Not Installed/Running"
+
+
+rpm -q falcon-sensor >/dev/null && echo "INSTALLED" || echo "NOT INSTALLED"
