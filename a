@@ -10,3 +10,6 @@ Get Command Result "sh -c 'rpm -q falcon-sensor >/dev/null && echo INSTALLED || 
 
 
 rpm -q falcon-sensor >/dev/null 2>&1
+
+
+bash && rpm -q falcon-sensor >/dev/null 2>&1
